@@ -13,11 +13,6 @@ export const App = () => {
 
   return (
     <div className="App">
-      <div className="header">
-        <div>
-          <h1>Play 2048</h1>
-        </div>
-      </div>
       <Game key={date.toISOString()} />
     </div>
   );
